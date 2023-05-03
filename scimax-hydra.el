@@ -414,7 +414,7 @@ _p_: ffap
   ("b" counsel-ibuffer "Buffer" :column "misc")
   ("n" ace-window "Ace window" :column "misc")
   ("f" counsel-recentf "Recent file" :column "misc")
-  ("j" avy-goto-char-timer "avy timer" :coumn "misc")
+  ("j" avy-goto-char-timer "avy timer" :column "misc")
   )
 
 
@@ -606,7 +606,7 @@ _<tab>_: %(ring-ref scimax-hydra-modes (+ 1 scimax-hydra-mode-counter)) _S-<tab>
   ("z" (scimax-open-hydra scimax-jump/body) :color blue)
   ("H-w" backward-word)
   ("H-s" backward-sentence)
-  ("H-p" backaward-paragraph)
+  ("H-p" backward-paragraph)
   ("s-p" forward-paragraph)
   ("s-w" forward-word)
   ("s-s" forward-sentence)
@@ -1272,7 +1272,7 @@ _/_: directories  _M_: chmod
 _@_: symlinks     _G_: chgrp
 _O_: omitted      _O_: chown
 ----
-_U_: unmark all   _A_: find regx
+_U_: unmark all   _A_: find regex
 _t_: toggle marks _Q_: find/rep
 "
   ;; marking

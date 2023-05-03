@@ -1194,7 +1194,7 @@ In an open file run ~M-x git-blame~, then press b to see commits that add lines.
 
   [[info:magit#Rebasing][info:magit#Rebasing]]
 
-**** Interactve rebasing
+**** Interactive rebasing
 
  Open the log, select the oldest commit you want to rebase on then press "r" and then "i". Use M-p and M-n to move commits around. Press "s" on any commits you want to squash into the commit above it. C-c C-c will start the commands.
 
@@ -1211,7 +1211,7 @@ In an open file run ~M-x git-blame~, then press b to see commits that add lines.
   In magit-status window, press "W"
 
   "W p" creates patches
-  "W r" makes a pull request. This just creates an email with information in it. It is not a GitHUB request, and it is only useful if there is a public, external copy of the repo.
+  "W r" makes a pull request. This just creates an email with information in it. It is not a GitHub request, and it is only useful if there is a public, external copy of the repo.
 
 *** Cherry-picking
 
@@ -1290,7 +1290,7 @@ If you like sessions in Python, the ob-ipython library is better than the defaul
 
 Pygments doesn't support ipython out of the box for some reason, which is a problem if you want to export your src block to LaTeX. scimax fixes this for you and automatically installs this if you don't already have it.
 
-ob-ipython allows you to use Ipython magic commands in your src blocks. Here is a protypical Ipython src block with a line magic.
+ob-ipython allows you to use Ipython magic commands in your src blocks. Here is a sample Ipython src block with a line magic.
 
 #+BEGIN_SRC ipython  :exports both
 %time print("hello world")
@@ -1464,7 +1464,7 @@ scimax provides the jupyter-hy src block to run hylang in src blocks. The requir
 
 * RSS feeds
 
-It is a major challenge to keep up with the scientific literature. `elfeed' is the package we use in scimax for that. It aggregates RSS feeds and provides a pretty easy way to consume them, capture them in to org-mode, search them, and do things with them. scimax preconfigures elfeed with some python, and emacs feeds, and you can easily add new feeds:
+It is a major challenge to keep up with the scientific literature. `elfeed' is the package we use in scimax for that. It aggregates RSS feeds and provides a pretty easy way to consume them, capture them into org-mode, search them, and do things with them. scimax preconfigures elfeed with some python, and emacs feeds, and you can easily add new feeds:
 
 The scimax customizations of elfeed are not loaded by default. If you want them, you have to add this to  your init files.:
 

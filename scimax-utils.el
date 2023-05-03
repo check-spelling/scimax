@@ -285,13 +285,13 @@ You can also try putting expressions in for formatting, e.g.:
 
 
 (defun scimax-github ()
-  "Open the Github repo."
+  "Open the GitHub repo."
   (interactive)
   (browse-url "https://github.com/jkitchin/scimax"))
 
 
 (defun scimax-github-issues ()
-  "Open the Github repo issues page."
+  "Open the GitHub repo issues page."
   (interactive)
   (browse-url "https://github.com/jkitchin/scimax/issues"))
 
@@ -302,7 +302,7 @@ You can also try putting expressions in for formatting, e.g.:
   "Take a screenshot and insert org link.
 with prefix arg, minimize emacs first.
 with double prefix arg, prompt for filename.
-Only works on Mac OSX."
+Only works on macOS."
   (interactive "P")
   (when arg
     (suspend-frame))
@@ -374,7 +374,7 @@ ARG prompt for filename, else generate one. images are saved in
   "Take a screenshot and insert org link.
 with prefix arg, minimize emacs first.
 With a double prefix, prompt for the filename.
-Only works on Mac OSX."
+Only works on macOS."
   (interactive "P")
   (when arg
     (suspend-frame))
